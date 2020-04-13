@@ -66,7 +66,7 @@ class LoginConversation extends Conversation
                 $this->say('Invalid email/password, try again');
                 $log = new Logs();
                 $log->type = 'LOGIN_FAIL';
-                $log->message = 'User:'.Auth::user()->id;
+                $log->message = 'User:'.$email;
                 $log->save();
 			}
 

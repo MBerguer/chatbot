@@ -174,9 +174,7 @@ return [
         // App\Providers\BroadcastServiceProvider::class,
         App\Providers\EventServiceProvider::class,
         App\Providers\RouteServiceProvider::class,
-        BotMan\Studio\Providers\DriverServiceProvider::class,
         BotMan\BotMan\BotManServiceProvider::class,
-        BotMan\Studio\Providers\StudioServiceProvider::class,
     ],
 
     /*
@@ -227,10 +225,7 @@ return [
         'URL' => Illuminate\Support\Facades\URL::class,
         'Validator' => Illuminate\Support\Facades\Validator::class,
         'View' => Illuminate\Support\Facades\View::class,
-        // 'BotMan' => App\Providers\BotMan\DriverServiceProvider::class        
-        'DriverServiceProvider' => BotMan\Studio\Providers\DriverServiceProvider::class,
         'BotManServiceProvider' => BotMan\BotMan\BotManServiceProvider::class,
-        'StudioServiceProvider' => BotMan\Studio\Providers\StudioServiceProvider::class,
 
     ],
 

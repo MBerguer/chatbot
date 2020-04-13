@@ -4,7 +4,7 @@ This is a simple Laravel web application that uses a chatbot interface to perfor
 
 ## How to run
 
-Five simple steps:
+Eight simple steps:
 
 -   Clone the project
 -   Create your own environment file running `cp .env.example .env` and replace the AMDOREN key to your own.
